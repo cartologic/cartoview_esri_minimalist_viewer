@@ -15,6 +15,12 @@
          "category":"General",
          "fields":[
             {
+               "label":"Title",
+               "fieldName":"title",
+               "type":"string",
+               "tooltip":"Map Title."
+            },
+            {
                "label":"Map Logo URL",
                "fieldName":"logoimage",
                "type":"string",

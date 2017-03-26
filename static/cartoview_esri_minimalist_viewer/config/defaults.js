@@ -15,7 +15,7 @@
  | See the License for the specific language governing permissions and
  | limitations under the License.
  */
-define({
+define(Object.assign({
   //Default configuration settings for the application. This is where you'll define things like a bing maps key,
   //default web map, default app color theme and more. These values can be overwritten by template configuration settings and url parameters.
   "appid": "",
@@ -92,4 +92,4 @@ define({
       "url": null
     }]
   }
-});
+}, config_json));
